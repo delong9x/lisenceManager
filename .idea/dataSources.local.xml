@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="chat_telegram@localhost" uuid="ab00a5ed-23b0-4c9c-97f5-6407af068aeb">
+      <database-info product="PostgreSQL" version="10.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>charlie</user-name>
+      <introspection-schemas>chat_telegram:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
