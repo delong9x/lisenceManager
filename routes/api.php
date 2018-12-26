@@ -18,3 +18,7 @@ Route::prefix('website')->name('website.')->group(function () {
     Route::put('/{id}', 'Api\WebsiteController@updateToken')->name('token');
     Route::delete('/{id}', 'Api\WebsiteController@delete')->name('delete');
 });
+
+Route::prefix('user')->name('user.')->group(function () {
+    Route::delete('/{id}', 'Api\AdminController@delete')->name('delete');
+});
