@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7853cb09-3ced-4cac-98be-2fcdd3f85a0c" name="Default" comment="" />
+    <list default="true" id="7853cb09-3ced-4cac-98be-2fcdd3f85a0c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WebsiteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="9" />
+              <caret line="56" column="9" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="9" />
               <folding>
                 <element signature="e#46#73#0#PHP" expanded="true" />
                 <element signature="e#503#838#0#PHP" />
@@ -95,11 +98,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="270">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -122,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/admin/website/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3360">
-              <caret line="226" column="10" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="226" selection-end-column="10" />
+              <caret line="226" column="10" selection-start-line="218" selection-start-column="3" selection-end-line="226" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -144,15 +166,6 @@
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminlte.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/adminlte.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -205,10 +218,12 @@
       <replace>Không tồn tại người dùng</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
@@ -237,7 +252,6 @@
         <option value="$PROJECT_DIR$/database/seeds/init_config.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_25_140159_init_config_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/InitConfigSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" />
         <option value="$PROJECT_DIR$/public/css/common.css" />
         <option value="$PROJECT_DIR$/resources/views/common/form.blade.php" />
@@ -259,6 +273,8 @@
         <option value="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
       </list>
     </option>
   </component>
@@ -381,6 +397,7 @@
     <option name="width" value="1440" />
     <option name="height" value="809" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -396,33 +413,13 @@
             <path>
               <item name="LicenceManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="LicenceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LicenceManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="LicenceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LicenceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LicenceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LicenceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LicenceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LicenceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LicenceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,7 +429,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="auth&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/auth.php&#10;Admin&#9;null&#9;null&#10;RouteServiceProvider&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Providers/RouteServiceProvider.php&#10;edit.&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/admin/website/edit.blade.php&#10;page.b&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/page.blade.php&#10;admin.php&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/routes/admin.php&#10;master&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/master.blade.php&#10;common.js&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/public/js/common.js&#10;page.&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/page.blade.php&#10;api&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/routes/api.php&#10;page.blade&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/page.blade.php&#10;adminl&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/adminlte.php&#10;app.&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/app.php&#10;app.php&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/app.php&#10;admin&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/routes/admin.php&#10;website&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Models/Website.php&#10;WebsiteController&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Controllers/Admin/WebsiteController.php&#10;2018_12_20_134907_add_chat_information_generate&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/database/migrations/2018_12_20_134907_add_chat_information_generate.php&#10;website/&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/admin/website&#10;LoginController&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Controllers/Auth/LoginController.php&#10;Is&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Middleware/IsAdmin.php&#10;route&#9;null&#9;null&#10;AppServiceProvider.php&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Providers/AppServiceProvider.php" />
+    <property name="SearchEverywhereHistoryKey" value="seed&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/database/seeds&#10;auth&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/auth.php&#10;Admin&#9;null&#9;null&#10;RouteServiceProvider&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Providers/RouteServiceProvider.php&#10;edit.&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/admin/website/edit.blade.php&#10;page.b&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/page.blade.php&#10;admin.php&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/routes/admin.php&#10;master&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/master.blade.php&#10;common.js&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/public/js/common.js&#10;page.&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/page.blade.php&#10;api&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/routes/api.php&#10;page.blade&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/vendor/adminlte/page.blade.php&#10;adminl&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/adminlte.php&#10;app.&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/app.php&#10;app.php&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/config/app.php&#10;admin&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/routes/admin.php&#10;website&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Models/Website.php&#10;WebsiteController&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Controllers/Admin/WebsiteController.php&#10;2018_12_20_134907_add_chat_information_generate&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/database/migrations/2018_12_20_134907_add_chat_information_generate.php&#10;website/&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/resources/views/admin/website&#10;LoginController&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Controllers/Auth/LoginController.php&#10;Is&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Http/Middleware/IsAdmin.php&#10;route&#9;null&#9;null&#10;AppServiceProvider.php&#9;FILE&#9;file:///Users/charlie/Code/Php/LicenceManager/app/Providers/AppServiceProvider.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -484,12 +481,12 @@
       <workItem from="1545712914813" duration="2019000" />
       <workItem from="1545720607433" duration="7203000" />
       <workItem from="1545728059847" duration="2753000" />
-      <workItem from="1545834939995" duration="3405000" />
+      <workItem from="1545834939995" duration="4827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50937000" />
+    <option name="totallyTimeSpent" value="52359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -498,10 +495,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329927" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
@@ -531,13 +528,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/flash-message.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -637,13 +627,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -797,7 +780,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/website/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3360">
-          <caret line="226" column="10" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="226" selection-end-column="10" />
+          <caret line="226" column="10" selection-start-line="218" selection-start-column="3" selection-end-line="226" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -818,7 +801,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WebsiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="9" />
+          <caret line="56" column="9" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="9" />
           <folding>
             <element signature="e#46#73#0#PHP" expanded="true" />
             <element signature="e#503#838#0#PHP" />
@@ -841,10 +824,25 @@
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
