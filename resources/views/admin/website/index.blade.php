@@ -178,7 +178,7 @@
                         var textCode = '\n';
                         var baseUrl = $('#base_url').val();
                         if(baseUrl[baseUrl.length-1] === "/") {
-                            baseUrl = baseUrl.substring(0, str.length-1);
+                            baseUrl = baseUrl.substring(0, baseUrl.length-1);
                         }
                         textCode += '<script>\n';
                         textCode += '    window.destinationId = ' + data.chat_id + ';\n';
