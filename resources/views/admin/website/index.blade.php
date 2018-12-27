@@ -176,6 +176,10 @@
                     } else {
                         data = res.data;
                         var textCode = '\n';
+                        var baseUrl = $('#base_url').val();
+                        if(baseUrl[baseUrl.length-1] === "/") {
+                            baseUrl = baseUrl.substring(0, str.length-1);
+                        }
                         textCode += '<script>\n';
                         textCode += '    window.destinationId = ' + data.chat_id + ';\n';
                         textCode += '    window.sourceServer = window.location.origin;\n';
@@ -226,6 +230,9 @@
                             textCode += '        getCustomerInfoText: \'' + data.auto_no_response + '\',\n';
                         } else {
                             textCode += '        getCustomerInfoText: \'Xin vui lòng nhập thông tin của bạn để chúng tôi liên hệ!\',\n';
+                        }
+                        if ($('#base_url').val()) {
+                            textCode += '        requestServer: \'' + baseUrl + '\',\n';
                         }
 
                         textCode += '        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens\n';
