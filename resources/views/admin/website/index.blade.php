@@ -231,6 +231,9 @@
                         } else {
                             textCode += '        getCustomerInfoText: \'Xin vui lòng nhập thông tin của bạn để chúng tôi liên hệ!\',\n';
                         }
+                        if (data.closed_chat_avatar_url) {
+                            textCode += '        closedChatAvatarUrl: \'' + data.closed_chat_avatar_url + '\',\n';
+                        }
                         if ($('#base_url').val()) {
                             textCode += '        requestServer: \'' + baseUrl + '\',\n';
                         }

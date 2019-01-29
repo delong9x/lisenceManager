@@ -20,6 +20,7 @@ class Website extends Model
         'auto_no_response',
         'placeholder_text',
         'get_customer_info_text',
-        'main_color'
+        'main_color',
+        'closed_chat_avatar_url'
         ];
 }

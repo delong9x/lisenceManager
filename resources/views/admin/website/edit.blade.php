@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="form-group col-md-12 col-sm-12 col-xs-12">
-            <label class="col-md-3 col-xs-6 col-sm-12">Tên Miền</label>
+            <label class="col-md-3 col-xs-6 col-sm-12">Tên Miền*</label>
             <div class="col-md-4 col-xs-6 col-sm-12 {{ $errors->has('domain') ? 'has-error' : '' }}">
                 <input type="text" name="domain" class="form-control" value="{{$data->domain}}">
             </div>
@@ -205,6 +205,22 @@
                     <input type="text" name="main_color" class="form-control " value="{{$data->main_color}}">
                     <span class="input-group-addon"><i></i></span>
                 </div>
+            </div>
+            @if ($errors->has('main_color'))
+                <div class="col-md-5 col-xs-6 col-sm-12">
+                     <span class="help-block">
+                         <strong>{{ $errors->first('main_color') }}</strong>
+                     </span>
+                </div>
+
+            @endif
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="col-md-3 col-xs-6 col-sm-12">Đường dẫn avatar:</label>
+            <div class="col-md-4 col-xs-6 col-sm-12 {{ $errors->has('closed_chat_avatar_url') ? 'has-error' : '' }}">
+                 <input type="text" name="closed_chat_avatar_url" class="form-control" value="{{$data->closed_chat_avatar_url}}">
             </div>
             @if ($errors->has('main_color'))
                 <div class="col-md-5 col-xs-6 col-sm-12">
